@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; 
+    min-width: 100%; 
+    align-items: center;
+    background: url("BG pics/8011672.jpg");
+    background-size: cover;
+    
+}
+
+.form-Box{
+    background: url("BG pics/8012580.jpg");
+    height: 450px;
+    position: relative;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: transparent;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    
+}
+
+h3{
+    text-align: center;
+    color: rgb(41, 201, 33);
+    font-size: 2em;
+}
+
+.input-box{
+    position:relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid rgb(12, 216, 66);
+    
+
+    
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size:  1em;
+    pointer-events: none;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+    transition: .5s;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: white;
+}
+
+
+.forget label a:hover{
+    text-decoration: underline;
+    margin: 4px;
+    color: white;
+
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+
+.register{
+    font-size: .9em;
+    margin: 25px 0 10px;
+    color: white;
+}
+
+.register p a{
+    text-decoration: none;
+    font-weight: 600;
+    color:white;
+
+}
+
+.register p a:hover{
+    text-decoration: underline;
+}
